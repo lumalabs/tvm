@@ -35,10 +35,10 @@ Also check out our previous paper [Inductive Moment Matching](https://arxiv.org/
 
 # Checklist
 
-- [] Add model weights and model definitions.
-- [] Add inference scripts.
-- [] Add evaluation scripts.
-- [] Add training scripts.
+- [ ] Add model weights and model definitions.
+- [ ] Add inference scripts.
+- [ ] Add evaluation scripts.
+- [ ] Add training scripts.
 
 
 # ImageNet Samples
