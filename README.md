@@ -26,7 +26,7 @@ Official Implementation of [Terminal Velocity Matching](https://arxiv.org/abs/25
 </div>
 <div align="center">
 <a href="https://arxiv.org/abs/2511.19797">[Paper]</a>
-<a href="https://lumalabs.ai/news/tvm">[Blog]</a> 
+<a href="https://lumalabs.ai/blog/engineering/tvm">[Blog]</a> 
 </div>
 </br>
 
