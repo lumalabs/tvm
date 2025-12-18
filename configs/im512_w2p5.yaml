@@ -146,7 +146,7 @@ eval:
   detector_kwargs: 
     return_features: True
 
-  ref_stats: YOUR_PATH/dataset-refs/img256.pkl
+  ref_stats: YOUR_PATH/dataset-refs/img512.pkl
 
  
 

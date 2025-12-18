@@ -506,8 +506,7 @@ def getstats(source: str,
     mean_res = np.stack(all_mean).mean(axis=(0,2,3))
     std_res = all_samples.std(axis=(0,2,3))
     print('Mean:', mean_res)
-    print('Std:', std_res)
-    import pdb; pdb.set_trace()
+    print('Std:', std_res) 
     
         
     
