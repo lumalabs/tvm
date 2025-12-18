@@ -70,13 +70,13 @@ We provide pretrained checkpoints through our [repo](https://huggingface.co/luma
     <td>2.0</td>
     <td>1</td>
     <td>3.29</td>
-    <td> <a/ link="https://huggingface.co/lumaai/tvm/resolve/main/im256_w2.pkl"> im256_w2.pkl</td>
+    <td> <a href="https://huggingface.co/lumaai/tvm/resolve/main/im256_w2.pkl"> im256_w2.pkl </a></td>
   </tr>
   <tr>
     <td>1.75</td>
     <td>4</td>
     <td>1.99</td>
-    <td> <a/ link="https://huggingface.co/lumaai/tvm/resolve/main/im256_w1p75.pkl"> im256_w1p75.pkl</td>
+    <td> <a href="https://huggingface.co/lumaai/tvm/resolve/main/im256_w1p75.pkl"> im256_w1p75.pkl</a> </td>
   </tr>
   <tr>
     <th colspan="4">ImageNet-512x512</th>
@@ -85,7 +85,7 @@ We provide pretrained checkpoints through our [repo](https://huggingface.co/luma
     <td>2.5</td>
     <td>1</td>
     <td>4.32</td>
-    <td> <a/ link="https://huggingface.co/lumaai/tvm/resolve/main/im512_w2p5.pkl"> im512_w2p5.pkl</td>
+    <td> <a href="https://huggingface.co/lumaai/tvm/resolve/main/im512_w2p5.pkl"> im512_w2p5.pkl</a></td>
   </tr>
 </table>
 
