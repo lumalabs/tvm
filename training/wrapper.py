@@ -26,7 +26,8 @@ class TVMWrapper(torch.nn.Module):
         data_type='bf16',
         detach_jvp=False,
         do_scale_param=False,
-        **model_kwargs,  # Keyword arguments for the underlying model.
+        model_kwargs={},  # Keyword arguments for the underlying model.
+        **shared_kwargs,
     ):
         super().__init__()
  
@@ -50,6 +51,7 @@ class TVMWrapper(torch.nn.Module):
             out_channels=img_channels,
             label_dim=label_dim, 
             **model_kwargs, 
+            **shared_kwargs,
         )
         print('Model # Mparams:', sum(p.numel() for p in self.model.parameters()) / 1000000)
            
