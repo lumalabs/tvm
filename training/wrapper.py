@@ -51,6 +51,7 @@ class TVMWrapper(torch.nn.Module):
             out_channels=img_channels,
             label_dim=label_dim, 
             **model_kwargs, 
+            **shared_kwargs,
         )
         print('Model # Mparams:', sum(p.numel() for p in self.model.parameters()) / 1000000)
            
