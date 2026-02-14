@@ -26,7 +26,7 @@ class TVMWrapper(torch.nn.Module):
         data_type='bf16',
         detach_jvp=False,
         do_scale_param=False,
-        **model_kwargs,  # Keyword arguments for the underlying model.
+        model_kwargs,  # Keyword arguments for the underlying model.
     ):
         super().__init__()
  
